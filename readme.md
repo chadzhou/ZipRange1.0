@@ -6,7 +6,7 @@ and each node contains a left child, which represents a range smaller than itsel
 We collect them from String into an arrayList of RangeNodes, and then construct a binary search tree based on the ranges these nodes have.
 The output is a customized binary-search-tree, based on the ranges.
 The algorithm is basically a binary-search-tree in-order traversal. 
-To balance the worst case scenario, we randomly pick one range from the input as the root of the binary. 
+To balance the worst case scenario, we randomly pick one range from the input as the root of the binary search tree.
 
 
 2. Package contents:
